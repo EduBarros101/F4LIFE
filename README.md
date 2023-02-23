@@ -11,4 +11,4 @@ Desenvolvido para aplicação dos conceitos estudados na Trilha Full Stack do Pr
 
 ## Página do Projeto
 
-🔗 Link: [🚧 em desenvolvimento 🚧]
+🔗 Link: https://edubarros101.github.io/F4LIFE/
