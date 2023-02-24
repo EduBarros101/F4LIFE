@@ -19,5 +19,7 @@
   color: var(--light-blue);
 }
 .calling img {
+  display: block;
+  padding-bottom: 4rem;
   width: 100vw;
 }/*# sourceMappingURL=calling.css.map */
