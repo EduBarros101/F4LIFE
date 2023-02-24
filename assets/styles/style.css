@@ -16,6 +16,10 @@ html {
   font-family: "Open Sans", sans-serif;
 }
 
+body {
+  font-size: 1.6rem;
+}
+
 .container {
-  pad: 2rem;
+  padding: 2rem;
 }/*# sourceMappingURL=style.css.map */

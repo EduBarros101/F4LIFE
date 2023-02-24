@@ -1,1 +1,48 @@
-/*# sourceMappingURL=who-are-we.css.map */
+.who-are-we {
+  background: var(--dark-blue);
+}
+.who-are-we h2 {
+  font-size: 2rem;
+  color: var(--white);
+  padding-bottom: 2rem;
+}
+.who-are-we p {
+  font-size: 1.6rem;
+  color: var(--white);
+}
+
+.who-are-we__principal p {
+  font-size: 1.6rem;
+  color: var(--white);
+  padding-bottom: 3rem;
+}
+.who-are-we__principal img {
+  width: 100%;
+  padding-bottom: 5.5rem;
+}
+
+.who-are-we__opinions {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  text-align: center;
+}
+.who-are-we__opinions h2 {
+  font-size: 2.4rem;
+  text-align: initial;
+}
+.who-are-we__opinions figure {
+  width: 17rem;
+  margin: 0 auto;
+}
+.who-are-we__opinions figure img {
+  width: 12.5rem;
+}
+.who-are-we__opinions figure figcaption :nth-child(1) {
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+.who-are-we__opinions figure figcaption :nth-child(2) {
+  font-style: italic;
+  font-size: 1.4rem;
+}/*# sourceMappingURL=who-are-we.css.map */
