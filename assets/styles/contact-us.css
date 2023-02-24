@@ -1,1 +1,7 @@
-/*# sourceMappingURL=contact-us.css.map */
+.contact-us form {
+  display: flex;
+  flex-direction: column;
+}
+.contact-us > img {
+  width: 100%;
+}/*# sourceMappingURL=contact-us.css.map */
