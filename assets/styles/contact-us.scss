@@ -1,10 +1,57 @@
 .contact-us {
+  margin-top: 3.5rem;
+
   form {
     display: flex;
     flex-direction: column;
+    margin-bottom: 2rem;
+
+    h2 {
+      margin-bottom: 2rem;
+    }
+
+    input,
+    textarea {
+      border: 0.7px solid var(--dark-blue);
+      border-radius: 10px;
+      margin-bottom: 1.5rem;
+    }
+
+    input {
+      height: 3.1rem;
+    }
+
+    textarea {
+      height: 14.3rem;
+    }
+
+    label {
+      font-weight: 700;
+      color: var(--dark-blue);
+      margin-bottom: 0.5rem;
+    }
+
+    textarea {
+      resize: none;
+    }
+
+    button {
+      align-self: flex-end;
+      padding: 0.5rem 1rem;
+
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: var(--white);
+      background-color: var(--dark-blue);
+
+      border: none;
+      border-radius: 7px;
+    }
   }
 
   & > img {
+    display: block;
     width: 100%;
+    padding: 0 1.2rem 0.5rem;
   }
 }

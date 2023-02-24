@@ -115,17 +115,23 @@
         </div>
       </section>
 
-      <section class="contact-us container">
-        <form action="#" method="get">
+      <section class="contact-us">
+        <form action="#" method="get" class="container">
           <h2>Entre em contato</h2>
 
           <label for="email">e-mail</label>
-          <input id="email" name="email" type="text" />
+          <input id="email" name="email" type="text" required />
 
           <label for="message">Mensagem</label>
-          <textarea name="message" id="message" cols="10" rows="10"></textarea>
+          <textarea
+            name="message"
+            id="message"
+            cols="10"
+            rows="10"
+            required
+          ></textarea>
 
-          <input type="submit" value="Enviar" />
+          <button type="submit">Enviar</button>
         </form>
 
         <img src="./assets/images/contact-us.svg" alt="" />

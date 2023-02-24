@@ -1,7 +1,46 @@
+.contact-us {
+  margin-top: 3.5rem;
+}
 .contact-us form {
   display: flex;
   flex-direction: column;
+  margin-bottom: 2rem;
+}
+.contact-us form h2 {
+  margin-bottom: 2rem;
+}
+.contact-us form input,
+.contact-us form textarea {
+  border: 0.7px solid var(--dark-blue);
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+}
+.contact-us form input {
+  height: 3.1rem;
+}
+.contact-us form textarea {
+  height: 14.3rem;
+}
+.contact-us form label {
+  font-weight: 700;
+  color: var(--dark-blue);
+  margin-bottom: 0.5rem;
+}
+.contact-us form textarea {
+  resize: none;
+}
+.contact-us form button {
+  align-self: flex-end;
+  padding: 0.5rem 1rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--white);
+  background-color: var(--dark-blue);
+  border: none;
+  border-radius: 7px;
 }
 .contact-us > img {
+  display: block;
   width: 100%;
+  padding: 0 1.2rem 0.5rem;
 }/*# sourceMappingURL=contact-us.css.map */
