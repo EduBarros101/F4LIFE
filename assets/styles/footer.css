@@ -1,1 +1,11 @@
-/*# sourceMappingURL=footer.css.map */
+footer {
+  display: flex;
+  height: 5rem;
+  background: var(--dark-blue);
+}
+footer .social-media {
+  display: flex;
+  padding: 1rem;
+  justify-content: space-around;
+  width: 100%;
+}/*# sourceMappingURL=footer.css.map */
