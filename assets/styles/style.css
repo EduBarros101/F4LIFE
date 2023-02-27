@@ -19,6 +19,8 @@ html {
 
 body {
   font-size: 1.6rem;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .container {
