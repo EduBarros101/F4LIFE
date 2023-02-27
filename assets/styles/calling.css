@@ -22,4 +22,37 @@
   display: block;
   padding-bottom: 4rem;
   width: 100vw;
+}
+
+@media screen and (min-width: 1366px) {
+  .calling {
+    display: flex;
+    gap: 10rem;
+    padding: 10rem;
+  }
+  .calling .container {
+    padding: 0;
+  }
+  .calling div {
+    flex: 1;
+  }
+  .calling div h1 {
+    font-size: 7rem;
+    line-height: 7rem;
+    padding-bottom: 3rem;
+  }
+  .calling div p {
+    font-size: 2.5rem;
+    padding-bottom: 9rem;
+  }
+  .calling div button {
+    font-size: 2.5rem;
+    width: 35rem;
+    height: 7.4rem;
+    padding: 0;
+    margin: 0;
+  }
+  .calling img {
+    flex: 1;
+  }
 }/*# sourceMappingURL=calling.css.map */
