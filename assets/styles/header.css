@@ -4,6 +4,9 @@
   align-items: center;
   padding: 1.5rem 2rem;
 }
+.header-container nav {
+  display: none;
+}
 
 .hamburger-menu {
   display: flex;
@@ -23,4 +26,30 @@ header {
 }
 header img {
   height: 3.9rem;
+}
+
+@media screen and (min-width: 1366px) {
+  .header-container {
+    height: 10rem;
+    padding: 0 10rem;
+  }
+  .header-container img {
+    height: 7rem;
+  }
+  .header-container nav {
+    display: flex;
+  }
+  .header-container nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 43.3rem;
+  }
+  .header-container nav ul li {
+    color: var(--white);
+    font-weight: 700;
+    font-size: 1.8rem;
+  }
+  .hamburger-menu {
+    display: none;
+  }
 }/*# sourceMappingURL=header.css.map */
