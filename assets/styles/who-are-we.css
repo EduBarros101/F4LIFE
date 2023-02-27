@@ -46,4 +46,34 @@
 .who-are-we__opinions figure figcaption :nth-child(2) {
   font-style: italic;
   font-size: 1.4rem;
+}
+
+@media screen and (min-width: 1366px) {
+  .container {
+    padding: 5rem;
+  }
+  .who-are-we {
+    display: flex;
+    height: 77.5rem;
+  }
+  .who-are-we__principal {
+    display: flex;
+    align-items: center;
+  }
+  .who-are-we__principal h2 {
+    font-size: 5.2rem;
+  }
+  .who-are-we__principal p {
+    font-size: 3rem;
+  }
+  .who-are-we__principal .who-are-we__text {
+    flex: 1;
+  }
+  .who-are-we__principal img {
+    flex: 1;
+    padding: 0;
+  }
+  .who-are-we__opinions {
+    display: none;
+  }
 }/*# sourceMappingURL=who-are-we.css.map */

@@ -59,3 +59,41 @@
     }
   }
 }
+
+@media screen and (min-width: 1366px) {
+  .container {
+    padding: 5rem;
+  }
+
+  .who-are-we {
+    display: flex;
+    height: 77.5rem;
+  }
+
+  .who-are-we__principal {
+    display: flex;
+    align-items: center;
+
+    h2 {
+      font-size: 5.2rem;
+    }
+
+    p {
+      font-size: 3rem;
+    }
+
+    // Estou deixando os dois elementos abaixo com flex: 1, mas eu gostaria de deixar a classe .who-are-we__text com a largura fixa de 715px. Não consegui isso sem bugar a imagem.
+    .who-are-we__text {
+      flex: 1;
+    }
+
+    img {
+      flex: 1;
+      padding: 0;
+    }
+  }
+
+  .who-are-we__opinions {
+    display: none;
+  }
+}
