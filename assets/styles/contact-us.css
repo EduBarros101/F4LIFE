@@ -43,4 +43,45 @@
   display: block;
   width: 100%;
   padding: 0 1.2rem 0.5rem;
+}
+
+@media screen and (min-width: 1366px) {
+  .contact-us {
+    display: flex;
+    gap: 5rem;
+    padding: 4.5rem;
+  }
+  .contact-us .container {
+    padding: 0;
+  }
+  .contact-us form {
+    width: 600px;
+  }
+  .contact-us form h2 {
+    font-size: 5.2rem;
+  }
+  .contact-us form label {
+    font-size: 3.7rem;
+  }
+  .contact-us form input,
+  .contact-us form textarea {
+    border: 0.192rem solid var(--dark-blue);
+    border-radius: 1.9rem;
+  }
+  .contact-us form input {
+    height: 6rem;
+  }
+  .contact-us form textarea {
+    height: 30.9rem;
+  }
+  .contact-us form button {
+    align-self: flex-start;
+    font-size: 3.5rem;
+    padding: 1.7rem 4.5rem;
+    border-radius: 1.9rem;
+  }
+  .contact-us img {
+    flex: 1;
+    padding: 0;
+  }
 }/*# sourceMappingURL=contact-us.css.map */
