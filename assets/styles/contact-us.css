@@ -17,9 +17,13 @@
 }
 .contact-us form input {
   height: 3.1rem;
+  padding: 1rem;
+  font-size: 1.8rem;
 }
 .contact-us form textarea {
   height: 14.3rem;
+  padding: 1rem;
+  font-size: 1.8rem;
 }
 .contact-us form label {
   font-weight: 700;
