@@ -60,7 +60,7 @@
   }
 }
 
-@media screen and (min-width: 1366px) {
+@media screen and (min-width: 1024px) {
   .contact-us {
     display: flex;
     gap: 5rem;
@@ -71,7 +71,8 @@
     }
 
     form {
-      width: 600px;
+      // width: 600px;
+      flex: 1;
 
       h2 {
         font-size: 5.2rem;

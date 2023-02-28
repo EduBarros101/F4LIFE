@@ -49,7 +49,7 @@
   padding: 0 1.2rem 0.5rem;
 }
 
-@media screen and (min-width: 1366px) {
+@media screen and (min-width: 1024px) {
   .contact-us {
     display: flex;
     gap: 5rem;
@@ -59,7 +59,7 @@
     padding: 0;
   }
   .contact-us form {
-    width: 600px;
+    flex: 1;
   }
   .contact-us form h2 {
     font-size: 5.2rem;
