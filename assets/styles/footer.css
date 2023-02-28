@@ -8,4 +8,39 @@ footer .social-media {
   padding: 1rem;
   justify-content: space-around;
   width: 100%;
+}
+footer .rights {
+  display: none;
+}
+footer a {
+  display: none;
+}
+
+@media screen and (min-width: 1366px) {
+  footer {
+    height: 12.5rem;
+    padding: 2.7rem 3.6rem;
+    align-items: center;
+    justify-content: space-between;
+  }
+  footer .social-media {
+    justify-content: unset;
+    gap: 7rem;
+    padding: 0;
+    width: auto;
+  }
+  footer .social-media img {
+    height: 3.5rem;
+  }
+  footer .rights {
+    display: flex;
+  }
+  footer .rights p {
+    color: var(--white);
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
+  footer a {
+    display: flex;
+  }
 }/*# sourceMappingURL=footer.css.map */

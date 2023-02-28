@@ -9,4 +9,46 @@ footer {
     justify-content: space-around;
     width: 100%;
   }
+
+  .rights {
+    display: none;
+  }
+
+  a {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  footer {
+    height: 12.5rem;
+    padding: 2.7rem 3.6rem;
+    align-items: center;
+    justify-content: space-between;
+
+    .social-media {
+      justify-content: unset;
+      gap: 7rem;
+      padding: 0;
+      width: auto;
+
+      img {
+        height: 3.5rem;
+      }
+    }
+
+    .rights {
+      display: flex;
+
+      p {
+        color: var(--white);
+        font-size: 1.8rem;
+        font-weight: 700;
+      }
+    }
+
+    a {
+      display: flex;
+    }
+  }
 }
